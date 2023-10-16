@@ -1,6 +1,4 @@
-#Official file
-#Shailja Shaktawat
-#XII-B
+#Official file
 
 import mysql.connector as mysql
 from mysql.connector import Error
