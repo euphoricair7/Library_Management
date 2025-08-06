@@ -1,4 +1,5 @@
-#Official file
+#Official file
+
 
 import mysql.connector as mysql
 from mysql.connector import Error
@@ -8,7 +9,7 @@ import pandas as pd
 mycon = mysql.connect(
     host='localhost',
     user ='root',
-    password = 'jamless7',
+    password = 'addyourpassword',
     database='library')
 
 if mycon.is_connected():
@@ -405,6 +406,7 @@ def startmenu1():
 startmenu1() 
 
     
+
 
 
 
